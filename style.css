@@ -1,0 +1,68 @@
+body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: rgb(250, 247, 244);
+    text-align: center;
+    margin-left: 390px;
+    margin-right: 390px;
+    margin-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    flex: 1;
+    border: 5px solid white;
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+}
+
+.div-porcentaje-propina{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#porcentaje-input::placeholder{
+    text-align: center;
+}
+
+.div-monto-total{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#monto::placeholder{
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    all: unset;
+    color: #fff;
+    border: 5px solid #999797;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.button-porcentaje{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    color: black;
+
+}
